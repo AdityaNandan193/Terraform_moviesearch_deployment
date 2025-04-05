@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Infra Repo') {
             steps {
-                git url: 'https://github.com/AdityaNandan193/Terraform_moviesearch_deployment.git', branch: 'master'
+                git url: 'https://github.com/AdityaNandan193/Terraform_moviesearch_deployment.git', branch: 'main'
             }
         }
 
